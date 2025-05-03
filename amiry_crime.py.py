@@ -85,7 +85,7 @@ AMIRY_LOGO = r"""
 """
 
 
-# Анимированный глитч-эффект
+т
 import random
 import time
 import os
@@ -96,7 +96,7 @@ def show_glitched_amiry():
         os.system('cls' if os.name == 'nt' else 'clear')
         print("\033[31m")  # Красный цвет
         
-        # Глитч-версия
+      
         glitched = []
         for line in AMIRY_LOGO.split('\n'):
             glitched_line = []
@@ -110,7 +110,7 @@ def show_glitched_amiry():
         print('\n'.join(glitched))
         time.sleep(0.1)
     
-    # Финальная версия с "кровью"
+   
     os.system('cls' if os.name == 'nt' else 'clear')
     print("\033[31m" + AMIRY_LOGO + "\033[0m")
     print("\n\033[31m[\033[91m⚠\033[31m] BYE BYE CRIME \033[0m")
