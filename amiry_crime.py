@@ -85,7 +85,6 @@ AMIRY_LOGO = r"""
 """
 
 
-т
 import random
 import time
 import os
